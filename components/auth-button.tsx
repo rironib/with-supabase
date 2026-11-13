@@ -1,6 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
-import { connection } from "next/server";
 import Link from "next/link";
+import { connection } from "next/server";
 import { LogoutButton } from "./logout-button";
 import { Button } from "./ui/button";
 
